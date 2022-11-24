@@ -1,0 +1,98 @@
+
+    .buton {
+      display: inline-block;
+      background-color: transparent;
+      width: 340px;
+      height: 36px;
+      text-align: center;
+      line-height:36px;
+    }
+
+    .buton:hover {
+      color: #858796;
+    }
+
+
+    .buton-gri {
+      color: #fff;
+      background-color: #858796;
+      border-color: #858796;
+    }
+
+    .buton-gri:hover {
+      color: #fff;
+      background-color: #717384;
+      border-color: #6b6d7d;
+    }
+
+    .buton-gri:not(:disabled):not(.disabled):active {
+      color: #fff;
+      background-color: #6b6d7d;
+      border-color: #656776;
+    }
+
+    #sayfa {
+      display: flex;
+    }
+
+    #sayfa #sayfa-icerik {
+      background-color: #f8f9fc;
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    #sayfa #sayfa-icerik #icerik {
+      flex: 1 0 auto;
+    }
+
+    .background-sari {
+      background-color: #ffd42aff;
+      background-size: cover;
+      opacity: 56.3;
+    }
+
+    .background-gri {
+      background-color: #e3f4d7ff;
+      background-size: cover;
+    }
+
+
+
+    .kart {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid #e3e6f0;
+      border-radius: 0.35rem;
+      left: 75px;
+      height: 100%;
+      width:1150px;
+    }
+
+
+    .kart-body {
+      flex: 1 1 auto;
+      padding: 1.25rem;
+    }
+
+    .kart-baslik {
+      margin-bottom: 0.75rem;
+    }
+
+    .active{
+      background-color: #666;
+      color: white;
+      text-decoration: none;
+    }
+
+    .yesil-yazi {
+        color: #3c763d;
+    }
+
+    .sari-yazi {
+        color: #ffd42aff;;
+    }
